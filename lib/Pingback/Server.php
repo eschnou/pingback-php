@@ -116,11 +116,11 @@ class Pingback_Server {
   }
 
   public function getSourceURL() {
-    return $this->_sourceURL;
+    return $this->_requestSource;
   }
 
   public function getTargetURL() {
-    return $this->_targetURL;
+    return $this->_requestTarget;
   }
   
   public function getFaultAsArray($faultCode) {
